@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.all-form{
+    width: 420px;
+    height: 430px;
+    padding: 16px;
+    box-shadow: 0px 2px 8px rgba(40, 41, 61, 0.08), 0px 20px 32px rgba(96, 97, 112, 0.24);
+    border-radius: 20px;
+    margin: 30px 30px;
+}
+.cross{
+    display: flex;
+    justify-content: right;
+}
+.main{
+    width: 90%;
+    margin: auto;
+}
+.title{
+    width: 356px;
+    height: 32px;
+}
+h1{
+    font-size: 28px;
+    line-height: 32px;
+    font-family: 'Nunito';
+    font-weight: bold;
+}
+
+.email-pass{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 24px;
+}
+input[name="email"], input[name="pass"]{
+    border: 2px solid #CFD8DC;
+    border-radius: 12px;
+    padding: 14px 0 14px 0 16px;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Nunito',sans-serif;
+}
+input[name="email"], input[name="pass"]:focus{
+    border-color: #FFE44D;
+    outline: none;
+}
+
+
+p{
+    font-family: 'Nunito';
+    font-style: normal;
+    flex: none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #7B8E98;
+    padding: 14px 0;
+    margin-bottom: 12px;
+  
+}
+
+.register{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.regregister{
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    border: 0;
+    padding: 14px 0;
+    border-radius: 55px;
+    background: #FFE44D;
+}
+.exitregister{
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    border: 0;
+    padding: 14px 0;
+    border-radius: 55px;
+    border: 2px solid #CFD8DC;
+}
