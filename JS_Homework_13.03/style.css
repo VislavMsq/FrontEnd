@@ -1,0 +1,15 @@
+.users_container, .products_container {
+    display: flex;
+}
+
+.users_container>div, .products_container>div {
+    padding: 10px;
+    border: 1px solid black;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: rgb(80, 80, 80);
+    color: white;
+}
